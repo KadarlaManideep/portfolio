@@ -79,13 +79,6 @@ export default function Hero() {
           </a>
         </div>
       </div>
-
-      <a href="#about" className={styles.scrollIndicator} aria-label="Scroll to about section">
-        <div className={styles.mouse}>
-          <div className={styles.wheel} />
-        </div>
-        <span className={styles.scrollText}>Scroll</span>
-      </a>
     </section>
   )
 }
