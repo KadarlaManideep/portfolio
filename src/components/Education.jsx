@@ -24,7 +24,7 @@ const EDUCATION = [
     school: 'Sreenidhi Institute of Science and Technology',
     location: 'Hyderabad, IN',
     period: '2018 – 2022',
-    affiliation: 'JNTU',
+    affiliation: null,
     courses: [
       'Computer Networks',
       'Analog Circuits',

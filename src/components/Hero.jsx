@@ -68,6 +68,15 @@ export default function Hero() {
           >
             LinkedIn
           </a>
+          <a
+            href="/Manideep_Kadarla_Resume.pdf"
+            download="Manideep_Kadarla_Resume.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className={`${styles.btn} ${styles.btnSecondary}`}
+          >
+            ↓ Resume
+          </a>
         </div>
       </div>
 
