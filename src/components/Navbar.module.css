@@ -1,0 +1,184 @@
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.25rem 2.5rem;
+  transition: background 0.3s ease, backdrop-filter 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Transparent nav sits on the purple hero — use white text */
+.logo {
+  font-size: 1.4rem;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  color: #fff;
+  transition: color 0.3s ease, opacity 0.2s ease;
+}
+
+.logo:hover {
+  opacity: 0.8;
+}
+
+.links {
+  display: flex;
+  list-style: none;
+  gap: 1.75rem;
+  margin: 0;
+  padding: 0;
+}
+
+.link {
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.85);
+  position: relative;
+  transition: color 0.2s ease;
+}
+
+.link::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 0;
+  height: 2px;
+  background: currentColor;
+  transition: width 0.25s ease;
+}
+
+.link:hover {
+  color: #fff;
+}
+
+.link:hover::after {
+  width: 100%;
+}
+
+/* Hamburger — white lines on transparent nav */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 4px;
+}
+
+.hamburger span {
+  display: block;
+  width: 24px;
+  height: 2px;
+  background: #fff;
+  border-radius: 2px;
+  transition: transform 0.3s ease, opacity 0.3s ease, background 0.3s ease;
+  transform-origin: center;
+}
+
+.hamburgerActive span:nth-child(1) {
+  transform: translateY(7px) rotate(45deg);
+}
+
+.hamburgerActive span:nth-child(2) {
+  opacity: 0;
+  transform: scaleX(0);
+}
+
+.hamburgerActive span:nth-child(3) {
+  transform: translateY(-7px) rotate(-45deg);
+}
+
+/* ─── Scrolled state ─── */
+.scrolled {
+  background: rgba(255, 255, 255, 0.88);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  box-shadow: var(--shadow);
+}
+
+.scrolled .logo {
+  color: var(--text-h);
+}
+
+.scrolled .logo:hover {
+  color: var(--accent);
+  opacity: 1;
+}
+
+.scrolled .link {
+  color: var(--text);
+}
+
+.scrolled .link:hover {
+  color: var(--text-h);
+}
+
+.scrolled .link::after {
+  background: var(--accent);
+}
+
+.scrolled .hamburger span {
+  background: var(--text-h);
+}
+
+@media (prefers-color-scheme: dark) {
+  .scrolled {
+    background: rgba(22, 23, 29, 0.88);
+  }
+}
+
+/* ─── Mobile ─── */
+@media (max-width: 768px) {
+  .nav {
+    padding: 1rem 1.5rem;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+
+  .links {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.4rem;
+    background: var(--bg);
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+  }
+
+  .links.open {
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+  .link {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--text-h);
+  }
+
+  .link:hover {
+    color: var(--accent);
+  }
+
+  .link::after {
+    display: none;
+  }
+
+  /* On mobile, the hamburger lines should be dark once menu is open (covers the page) */
+  .hamburgerActive span {
+    background: var(--text-h);
+  }
+}
