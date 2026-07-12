@@ -35,10 +35,10 @@ export default function About() {
         <div className={styles.textCol}>
           <p className={styles.label}>About Me</p>
           <h2 className={styles.name}>Manideep Kadarla</h2>
-          <p className={styles.title}>Full Stack .NET Engineer</p>
+          <p className={styles.title}>Full Stack Software Engineer</p>
 
           <p className={styles.bio}>
-            Hi! I&apos;m Full Stack .NET Engineer with 4+ years of experience building
+            Hi! I&apos;m Full Stack Software Engineer with 4+ years of experience building
             scalable web applications. I specialize in C#, .NET Core, Angular, and
             React, delivering end-to-end solutions across financial services, healthcare,
             and enterprise domains.
@@ -46,8 +46,8 @@ export default function About() {
           <p className={styles.bio}>
             I recently completed my M.S. in AI &amp; Business Analytics 
             from the University of South Florida (May 2026), where I also served as a
-            Graduate Teaching Assistant. Outside of work, I enjoy IPL cricket analytics
-            and building tools that solve real problems.
+            Graduate Teaching Assistant. I'm currently open to Full Stack Software Engineer roles 
+            across the US - feel free to reach out!
           </p>
 
           <a href="#contact" className={styles.cta}>

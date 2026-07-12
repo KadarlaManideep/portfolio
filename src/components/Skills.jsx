@@ -2,26 +2,26 @@ import styles from './Skills.module.css'
 
 const ROWS = [
   {
-    skills: ['C#', 'JavaScript', 'TypeScript', 'Python', 'Java', 'R', 'HTML5', 'CSS3'],
-    duration: '28s',
-  },
-  {
-    skills: ['React JS', 'Angular', 'Next.js', 'Node.js', 'ASP.NET MVC', '.NET Core', 'Blazor', 'Material UI'],
-    duration: '34s',
-    reverse: true,
-  },
-  {
-    skills: ['SQL Server', 'PostgreSQL', 'MongoDB', 'Oracle SQL', 'MySQL', 'Redis', 'Cosmos DB', 'Snowflake'],
-    duration: '30s',
-  },
-  {
-    skills: ['Azure', 'AWS', 'Docker', 'Kubernetes', 'Kafka', 'Git', 'CI/CD', 'GitHub Copilot'],
-    duration: '36s',
-    reverse: true,
-  },
-  {
-    skills: ['Generative AI', 'LLMs', 'RAG Patterns', 'Azure AI Foundry', 'CrewAI Studio', 'Azure OpenAI', 'Prompt Engineering', 'Agentic Workflows'],
+    skills: ['C#', 'JavaScript', 'TypeScript', 'Python', 'Java', 'R', 'HTML5', 'CSS3', 'PL/SQL', 'T-SQL', 'XML', 'SCSS'],
     duration: '32s',
+  },
+  {
+    skills: ['React JS', 'Angular', 'Next.js', 'Node.js', 'ASP.NET MVC', '.NET Core', 'Entity Framework Core', 'Redux', 'NgRx', 'RxJs', 'LINQ', 'Dapper', 'Bootstrap', 'Material UI'],
+    duration: '40s',
+    reverse: true,
+  },
+  {
+    skills: ['SQL Server', 'PostgreSQL', 'MongoDB', 'Oracle SQL', 'MySQL', 'Redis', 'Cosmos DB', 'Snowflake', 'Vector Databases', 'SSMS', 'SSRS', 'SSIS'],
+    duration: '36s',
+  },
+  {
+    skills: ['Azure', 'AWS', 'Docker', 'Kubernetes', 'Kafka', 'Git', 'CI/CD', 'GitHub Copilot', 'Azure DevOps', 'Jenkins', 'SonarQube', 'Linux', 'WSL', 'Postman'],
+    duration: '42s',
+    reverse: true,
+  },
+  {
+    skills: ['Generative AI', 'LLMs', 'RAG Patterns', 'Azure AI Foundry', 'CrewAI Studio', 'Azure OpenAI', 'Prompt Engineering', 'Agentic Workflows', 'NUnit', 'MSTest', 'xUnit', 'TDD', 'SOLID Principles', 'OAuth2/JWT', 'OWASP'],
+    duration: '44s',
   },
 ]
 

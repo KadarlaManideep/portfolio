@@ -14,12 +14,12 @@ const EXPERIENCES = [
   },
   {
     company: 'Raymond James Financial',
-    role: 'Software Engineer Intern',
+    role: 'Full Stack Software Engineer',
     focus: '.NET & Angular',
     period: 'Oct 2024 – Apr 2025',
     //location: 'St. Petersburg, FL',
     description:
-      'Built .NET Core APIs and Angular front-end applications for financial data workflows, integrating 10+ third-party systems with sub-200ms response times. Implemented OAuth2/JWT auth and Oracle SQL stored procedures in a regulated Azure environment.',
+      'Developed .NET Core REST APIs and Angular applications for financial data workflows with sub-200ms response times and zero production incidents. Designed Oracle SQL stored procedures and implemented OAuth2/JWT authentication in a regulated Azure-hosted enterprise environment.',
     tags: ['.NET Core', 'Angular', 'C#', 'Oracle SQL', 'Azure', 'OAuth2'],
   },
   {
@@ -27,17 +27,17 @@ const EXPERIENCES = [
     role: 'Associate Software Engineer',
     focus: '.NET & React',
     period: 'Mar 2022 – Jul 2024',
-    //location: 'Remote',
+    //location: 'Hyderabad, India',
     description:
       'Engineered ASP.NET Core microservices for healthcare billing handling 1M+ subscribers, cutting billing runtime by 35%. Built React.js portals reducing customer support calls by 30% and optimized SQL queries cutting latency by 70%.',
     tags: ['ASP.NET Core', 'React', 'C#', 'SQL Server', 'Azure', 'Docker', 'Kafka'],
   },
   {
     company: 'Suvidha Solutions',
-    role: 'Software Engineer Intern',
+    role: 'Junior Software Engineer',
     focus: 'TalentX Platform',
-    period: 'Jan 2021 – Sep 2021',
-    //location: 'Hyderabad, IN',
+    period: 'Jan 2021 – Feb 2022',
+    //location: 'Hyderabad, India',
     description:
       'Architected TalentX from scratch — an end-to-end enterprise hiring platform covering job postings, candidate tracking, and selection workflows with REST API integrations and T-SQL stored procedures.',
     tags: ['.NET', 'REST APIs', 'T-SQL', 'Linux'],

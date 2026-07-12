@@ -22,7 +22,7 @@ const EDUCATION = [
     degree: 'Bachelor of Technology',
     field: 'Electronics & Communication Engineering',
     school: 'Sreenidhi Institute of Science and Technology',
-    location: 'Hyderabad, IN',
+    location: 'Hyderabad, India',
     period: '2018 – 2022',
     affiliation: null,
     courses: [

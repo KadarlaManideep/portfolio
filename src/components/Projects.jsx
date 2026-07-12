@@ -3,52 +3,28 @@ import styles from './Projects.module.css'
 
 const PROJECTS = [
   {
-    title: 'AI ChatBot Web App',
+    title: 'CricMetrics',
     description:
-      'A conversational AI assistant powered by a large language model. Features context-aware responses, streaming output, and a clean chat UI.',
-    tags: ['React', 'Node.js', 'REST API', 'TypeScript'],
-    link: '#',
+      'IPL analytics dashboard built with React, TypeScript, and Vite featuring 10 pages of data visualizations, CSV-based data pipeline via PapaParse, Recharts charts, and an AI chatbot (CricBot) powered by the Anthropic API.',
+    tags: ['React', 'TypeScript', 'Vite', 'Recharts', 'Anthropic API'],
+    link: 'https://github.com/KadarlaManideep/cricmetrics',
     gradient: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
   },
   {
-    title: 'Traffic Sign Detection',
+    title: 'FairShare',
     description:
-      'Deep learning model using CNN and Keras for classifying traffic signs. Achieved 97% accuracy on the GTSRB benchmark dataset.',
-    tags: ['Python', 'TensorFlow', 'Keras', 'AWS'],
-    link: '#',
+      'Full-stack group expense management app built with ASP.NET Core MVC and SQLite. Features CRUD operations, automated cost-splitting, live currency conversion via ExchangeRate API, Chart.js dashboards, and deployed on Azure App Service.',
+    tags: ['ASP.NET Core', 'C#', 'EF Core', 'SQLite', 'Azure', 'Chart.js'],
+    link: 'https://github.com/KadarlaManideep/FairShare-FinalProject',
     gradient: 'linear-gradient(135deg, #f093fb 0%, #f5576c 100%)',
   },
   {
-    title: 'Data Engineering Pipeline',
+    title: 'Crime Hotspot Analysis',
     description:
-      'Real-time data ingestion and analytics platform processing millions of events per day with sub-second latency and Power BI dashboards.',
-    tags: ['Kafka', 'Spark', 'PostgreSQL', 'Docker'],
-    link: '#',
-    gradient: 'linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)',
-  },
-  {
-    title: 'Movie Ticket Booking',
-    description:
-      'Real-time ticket booking system with seat selection, payment processing via Stripe, and live availability updates using WebSockets.',
-    tags: ['Django', 'React', 'Firebase', 'Stripe'],
-    link: '#',
+      'Machine learning pipeline on 836K+ U.S. crime records (2020–2024). Engineered cyclic temporal features and K-Means geospatial clusters. Benchmarked Logistic Regression, KNN, Random Forest, and XGBoost — selected Random Forest with F1 score of 84%.',
+    tags: ['Python', 'Random Forest', 'XGBoost', 'SMOTE', 'K-Means', 'Jupyter'],
+    link: 'https://github.com/KadarlaManideep/crime-hotspot-analysis',
     gradient: 'linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)',
-  },
-  {
-    title: 'E-Commerce Backend',
-    description:
-      'Scalable backend API for an e-commerce platform with product catalog, order management, and inventory tracking built with Spring Boot.',
-    tags: ['Spring Boot', 'Java', 'PostgreSQL', 'Docker'],
-    link: '#',
-    gradient: 'linear-gradient(135deg, #fa709a 0%, #fee140 100%)',
-  },
-  {
-    title: 'E-Learning Platform',
-    description:
-      'A responsive e-learning website with course listings, video playback, progress tracking, and a student dashboard.',
-    tags: ['HTML5', 'CSS3', 'JavaScript', 'Bootstrap'],
-    link: '#',
-    gradient: 'linear-gradient(135deg, #a18cd1 0%, #fbc2eb 100%)',
   },
 ]
 

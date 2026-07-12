@@ -5,7 +5,6 @@ const ROLES = [
   'Software Engineer',
   '.Net Developer',
   'Full Stack Developer',
-  'Frontend Developer',
   'Problem Solver',
 ]
 
@@ -48,7 +47,7 @@ export default function Hero() {
         </div>
 
         <p className={styles.tagline}>
-          Full Stack .NET Developer with 4+ years of experience building scalable web apps - M.S.in Artificial Intelligence & Business Analytics from USF.
+          Full Stack Software Engineer with 4+ years of experience building scalable web apps & M.S.in Artificial Intelligence & Business Analytics from USF.
         </p>
 
         <div className={styles.actions}>
