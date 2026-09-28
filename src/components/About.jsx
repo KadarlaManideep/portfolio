@@ -1,6 +1,6 @@
 import { useEffect, useRef } from 'react'
 import styles from './About.module.css'
-import profileImg from '../assets/profile.png'
+
 
 export default function About() {
   const sectionRef = useRef(null)
