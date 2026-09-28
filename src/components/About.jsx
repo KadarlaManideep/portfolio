@@ -21,17 +21,6 @@ export default function About() {
     <section id="about" className={styles.section} ref={sectionRef}>
       <div className={styles.container}>
 
-        <div className={styles.imageCol}>
-          <div className={styles.blob}>
-          <img 
-          src={profileImg}
-          alt="Manideep Kadarla" 
-          className={styles.photo}
-          />
-          </div>
-        <div className={styles.blobGlow} aria-hidden="true" />
-      </div>
-
         <div className={styles.textCol}>
           <p className={styles.label}>About Me</p>
           <h2 className={styles.name}>Manideep Kadarla</h2>
