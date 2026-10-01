@@ -3,7 +3,7 @@ import styles from './Contact.module.css'
 
 const SOCIAL_LINKS = [
   { label: 'GitHub', href: 'https://github.com/KadarlaManideep' },
-  { label: 'LinkedIn', href: 'https://www.linkedin.com/in/manideep-kadarla-3829441a0' },
+  { label: 'LinkedIn', href: 'https://www.linkedin.com/in/manideep-k-3829441a0' },
 ]
 
 export default function Contact() {

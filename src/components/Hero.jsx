@@ -60,7 +60,7 @@ export default function Hero() {
             GitHub
           </a>
           <a
-            href="https://www.linkedin.com/in/manideep-kadarla-3829441a0"
+            href="https://www.linkedin.com/in/manideep-k-3829441a0"
             target="_blank"
             rel="noopener noreferrer"
             className={`${styles.btn} ${styles.btnSecondary}`}
